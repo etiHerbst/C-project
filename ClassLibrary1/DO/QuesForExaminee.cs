@@ -9,7 +9,7 @@ namespace DO;
 public record QuesForExaminee(
     int StudentId,
     int TestId,
-    int QuastionId,
+    int QuestionId,
     int? ChosenQuestion
 )
 {

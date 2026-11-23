@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace DO;
 
-public record Quastion(
-    int QuastionId,
-    QuastionSubject Subject,
+public record Question(
+    int QuestionId,
+    QuestionSubject Subject,
     string QuastionContent,
     int RightAns
 )
 {
-    public Quastion() : this(0, default, string.Empty, 0) { }
+    public Question() : this(0, default, string.Empty, 0) { }
 }

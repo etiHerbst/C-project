@@ -1,5 +1,9 @@
 ﻿namespace DO;
+public enum TestSubject { MATH, ENGLISH, TECHNOLOGY, GRAMMAR, GEOGRAPHY }
 
-public enum TestSubject { }
-public enum QuastionSubject { }
+public enum QuestionSubject
+{
+    MATH, ENGLISH, TECHNOLOGY
+}
+//public enum QuastionSubject { }
 
